@@ -1,0 +1,30 @@
+{
+  "name": "campus-complaint-management-system",
+  "version": "1.0.0",
+  "description": "Campus Complaint Management System (CCMS) - Cloud Computing Project",
+  "scripts": {
+    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install",
+    "install:all": "npm run install:server && npm run install:client",
+    "build:client": "cd client && npm run build",
+    "build": "npm run build:client",
+    "test": "cd server && npm test",
+    "start": "node server/src/server.js",
+    "db:init": "cd server && npm run db:init",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev"
+  },
+  "keywords": [
+    "aws",
+    "cloud-computing",
+    "ec2",
+    "rds",
+    "s3",
+    "ccms",
+    "react",
+    "express",
+    "mysql"
+  ],
+  "author": "",
+  "license": "ISC"
+}
